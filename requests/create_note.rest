@@ -1,10 +1,10 @@
-POST http://localhost:3001/api/notes HTTP/1.1
+POST http://localhost:3001/api/notes
 content-type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYThjYjk4NzE3ZWExOTg4MzhiMThiYSIsInVzZXJuYW1lIjoiZGlsYW4iLCJpYXQiOjE2NzIwMjA5MjcsImV4cCI6MTY3MjYyNTcyN30.O-hmBI2CSUX60Hf8RBVJTYuQr94x1kmU_gFE_kV17Gc
 
- {
-    "content": "Esto es una nueva nota",
-    "important": true,
-    "userId": "63a8cb98717ea198838b18ba"
+{
+   "content": "Esto es una nueva nota",
+   "important": true
 }
 
 
@@ -17,4 +17,4 @@ content-type: application/json
 
  {
     "content": "Esto es una nueva nota" 
-}
+ }
